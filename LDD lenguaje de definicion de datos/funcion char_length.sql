@@ -1,0 +1,2 @@
+select name, char_length(name) from sakila.category; # de esta manera sabemos la longitud de una cadena
+select city as ciudad, char_length(city) as LongitudCiudad from sakila.city; #De esta manera consultamos la logitud de caracteres de una cadena en todos los registros de un campo

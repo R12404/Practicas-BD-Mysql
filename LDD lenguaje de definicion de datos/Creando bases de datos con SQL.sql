@@ -1,0 +1,24 @@
+USE SAKILA;
+
+SHOW TABLES;
+
+DESCRIBE CITY;
+
+SELECT * FROM CITY;
+
+CREATE TABLE KOI #Creamos nueva tabla
+
+SELECT CITY_ID, PHONE, DISTRICT, LOCATION FROM ADDRESS; #Copiamos elementos de otra tabla
+
+SELECT * FROM KOI; #Seleccionamos todos los elementos de la base de datos
+
+ALTER TABLE KOI #Modificamos la base de datos
+DROP COLUMN DISTRICT;
+
+SELECT * FROM KOI;
+
+ALTER TABLE KOI
+ADD COLUMN NUEVO_DISTRITO VARCHAR(20);
+
+SELECT * FROM KOI;
+
